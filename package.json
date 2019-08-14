@@ -1,0 +1,28 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "api test",
+  "main": "server.js",
+  "dependencies": {
+    "body-parse": "^0.1.0",
+    "express": "^4.17.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jrgaragon/api.git"
+  },
+  "keywords": [
+    "api"
+  ],
+  "author": "yorch",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jrgaragon/api/issues"
+  },
+  "homepage": "https://github.com/jrgaragon/api#readme"
+}
