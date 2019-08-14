@@ -6,6 +6,13 @@ const server = express();
 server.use(bodyParser.urlencoded({extended: false}));
 server.use(bodyParser.json());
 
+server.get('/', (request, response) => {
+    console.log(request.body);
+    response.json({
+        message:"MOCK Service"
+    });
+});
+
 server.post('/LiteResponseV2', (request, response) => {
     console.log(request.body);
     response.json({
